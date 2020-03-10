@@ -1,0 +1,35 @@
+{
+  "name": "ngx-blockly",
+  "version": "0.0.55",
+  "description": "An angular wrapper for google's blockly.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roroettg/ngx-blockly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roroettg/ngx-blockly/issues"
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "blockly"
+  ],
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@angular/common": "7.x || 8.x",
+    "@angular/core": "7.x || 8.x"
+  },
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/ngx-blockly.umd.js",
+  "module": "fesm5/ngx-blockly.js",
+  "es2015": "fesm2015/ngx-blockly.js",
+  "esm5": "esm5/ngx-blockly.js",
+  "esm2015": "esm2015/ngx-blockly.js",
+  "fesm5": "fesm5/ngx-blockly.js",
+  "fesm2015": "fesm2015/ngx-blockly.js",
+  "typings": "ngx-blockly.d.ts",
+  "metadata": "ngx-blockly.metadata.json",
+  "sideEffects": false
+}
